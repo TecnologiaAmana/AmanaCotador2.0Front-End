@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'ApiFrontcotadoramana'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F77C65BC186742D68576659798B8035E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07606BC0B33D458B9858941E69AC65A4 }}
           package: .
