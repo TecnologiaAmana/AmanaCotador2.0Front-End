@@ -1,0 +1,17 @@
+.ctc_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctc_inputs_container {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 150px;
+}
+
+option {
+    font-size: 14px;
+}

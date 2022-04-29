@@ -1,0 +1,24 @@
+
+.table_result {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-top: 65px;
+    margin-bottom: 30px;
+  }
+  
+  .table_result th, .table_result td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .table_result th {
+    background: #A8CDC8;
+    font-size: 16px;
+  }
+  
+  .table_result tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table_result tr:hover {
+    background-color: #ddd;
+  }

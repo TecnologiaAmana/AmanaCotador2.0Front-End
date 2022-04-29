@@ -1,0 +1,38 @@
+
+.center {
+    margin: 0 auto;
+}
+
+.ctc_header {
+    /* background-color: blueviolet; */
+    height: 70px;
+    width: 80%;
+    max-width: 1400px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #265F78;
+}
+
+.header_nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_links {
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}

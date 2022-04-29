@@ -1,0 +1,83 @@
+.lgn_container {
+    /* background: hsla(170, 43%, 30%, 1); */
+
+    background: linear-gradient(45deg, hsla(170, 43%, 30%, 1) 0%, hsla(100, 23%, 42%, 1) 63%, hsla(69, 34%, 43%, 1) 77%, hsla(44, 90%, 56%, 1) 100%);
+
+    background: -moz-linear-gradient(45deg, hsla(170, 43%, 30%, 1) 0%, hsla(100, 23%, 42%, 1) 63%, hsla(69, 34%, 43%, 1) 77%, hsla(44, 90%, 56%, 1) 100%);
+
+    background: -webkit-linear-gradient(45deg, hsla(170, 43%, 30%, 1) 0%, hsla(100, 23%, 42%, 1) 63%, hsla(69, 34%, 43%, 1) 77%, hsla(44, 90%, 56%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2C6E63", endColorstr="#638453", GradientType=1 );
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lgn_card {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 416px;
+    height: 500px;
+
+}
+
+.lgn_logo_amana {
+    width: 150px;
+    height: 85px;
+
+    margin-bottom: 60px;
+}
+
+
+.lgn_btn {
+    background: #2C6E63;
+
+    height: 50px;
+    width: 350px;
+    border: none;
+
+    margin-top: 10px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+.lgn_loading {
+    cursor: not-allowed;
+}
+
+.lgn_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 15px;
+}
+
+#lgn_cadastre {
+    color: #265F78;
+    margin-top: 5px;
+}
+
+.lgn_erro {
+    color: #D64922;
+    font-size: 13px;
+}
+
+.lgn_cad {
+    margin-top: 5px;
+}

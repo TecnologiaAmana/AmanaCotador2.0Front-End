@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.none {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0060B6;
+}
+
+.grid {
+  width: 80%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+}
+
+.input {
+  background: #FFFFFF;
+  border: 1px solid #B3B3B3;
+  box-sizing: border-box;
+
+  height: 50px;
+  width: 350px;
+
+  padding-left: 10px;
+
+  margin-bottom: 15px;
+  color: #828282;
+}
+
+.btn {
+  background: #2C6E63;
+
+  height: 50px;
+  width: 350px;
+  border: none;
+
+  margin-top: 10px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
